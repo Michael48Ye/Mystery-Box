@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    border: 5px solid #FFF;
+    position: relative;
+}
+  
+@keyframes shake-animation {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(-10px) rotate(-5deg); }
+    20% { transform: translateX(10px) rotate(5deg); }
+    30% { transform: translateX(-10px) rotate(-5deg); }
+    40% { transform: translateX(10px) rotate(5deg); }
+    50% { transform: translateX(-10px) rotate(-5deg); }
+    60% { transform: translateX(10px) rotate(5deg); }
+     /* Continue the pattern for desired duration */
+}
+  
+@keyframes rotate-animation {
+    0% { transform: rotate(0); }
+    100% { transform: rotate(360deg); }
+}
