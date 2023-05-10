@@ -2,16 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-  }
-  
-.box {
-    width: 200px;
-    height: 200px;
-    background-color: #000;
-    border: 5px solid #FFF;
-    position: relative;
+    height: fit-content;
 }
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+  
   
 @keyframes shake-animation {
     0% { transform: translateX(0); }
